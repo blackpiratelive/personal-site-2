@@ -13,7 +13,7 @@ body {
 }
 
 h1 {
-    font-size: 4rem;
+    font-size: 5rem;
 }
 .highlight {
     color: var(--highlight-clr);
@@ -33,6 +33,7 @@ a {
     font-weight: 100;
     width: 50%;
 }
+
 .circle {
     width: 40rem;
     height: 40rem;
