@@ -1,6 +1,6 @@
 :root {
-    --bg-clr: #ffffff;
-    --font-clr: rgb(0, 0, 0);
+    --bg-clr: #000000;
+    --font-clr: rgb(255, 255, 255);
     --highlight-clr: #FF403B;
     --hyperlink-clr: #FF403B;
 }
@@ -44,5 +44,5 @@ a {
 }
 a:hover {
     text-decoration: underline;
-    text-underline-offset: 20%;
+    text-underline-offset: 10%;
 }
