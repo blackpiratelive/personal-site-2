@@ -1,49 +1,10 @@
-:root {
-    --bg-clr: #000000;
-    --font-clr: rgb(255, 255, 255);
-    --highlight-clr: #FF403B;
-    --hyperlink-clr: #FF403B;
-}
-
 body {
-    background-color: var(--bg-clr);
-    color: var(--font-clr);
-    font-family: sans-serif;
-
-}
-
-h1 {
-    font-size: 5rem;
-}
-.highlight {
-    color: var(--highlight-clr);
-}
-.all-content {
-    max-width: 900px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    width: 800px;
     margin: auto;
-    padding: 1em;
+    font-family: sans-serif;
 }
-a {
-    color: var(--highlight-clr);
-    text-decoration: none;
-
-}
-.para {
+.quote {
     font-size: 1.5rem;
-    font-weight: 100;
-    width: 50%;
-}
-
-.circle {
-    width: 40rem;
-    height: 40rem;
-    background-color: var(--highlight-clr);
-    border-radius: 50%;
-    position: absolute;
-    right: -10rem;
-    top: -7rem;
-}
-a:hover {
-    text-decoration: underline;
-    text-underline-offset: 10%;
 }
