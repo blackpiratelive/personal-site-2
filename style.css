@@ -1,10 +1,35 @@
+@font-face {
+    font-family: 'Minipax-regular';
+    src: url(fonts/Minipax-Regular.ttf);
+}
 body {
     color: rgb(0, 0, 0);
-    background-color: rgb(255, 255, 255);
+    font-size: 1.5rem;
+    background-color: #e0e0e0;
     width: 800px;
     margin: auto;
-    font-family: sans-serif;
+    font-family: 'Minipax-regular', sans-serif;
 }
 .quote {
     font-size: 1.5rem;
+}
+.all-content {
+    margin-top: 5rem;
+    padding: 1.5rem;
+    border-radius: 33px;
+background: #e0e0e0;
+box-shadow:  5px 5px 10px #b8b8b8,
+             -5px -5px 10px #ffffff;
+}
+a {
+    color: #0a84ff;
+    text-decoration: none;
+    padding: 0.3rem;
+}
+
+a:hover {
+    background-color: #0a84ff;
+    color: #e0e0e0;
+    border-radius: 5px;
+    
 }
