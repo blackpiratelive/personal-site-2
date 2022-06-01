@@ -1,35 +1,63 @@
-@font-face {
-    font-family: 'Minipax-regular';
-    src: url(fonts/Minipax-Regular.ttf);
+
+.all-content {
+    max-width: 700px;
+    margin: auto;
 }
 body {
-    color: rgb(0, 0, 0);
-    font-size: 1.5rem;
-    background-color: #e0e0e0;
-    width: 800px;
-    margin: auto;
-    font-family: 'Minipax-regular', sans-serif;
+    font-family: sans-serif;
+    margin: 1.5rem;
 }
-.quote {
+.heading {
+    text-align: left;
     font-size: 1.5rem;
 }
-.all-content {
-    margin-top: 5rem;
-    padding: 1.5rem;
-    border-radius: 33px;
-background: #e0e0e0;
-box-shadow:  5px 5px 10px #b8b8b8,
-             -5px -5px 10px #ffffff;
+h1 {
+    margin: 0;
+    padding: 0;
+}
+li {
+    list-style: none;
+}
+.nav {
+    display: flex;
+    gap: 1rem;
+    padding: 0;
+    justify-content: right;
 }
 a {
-    color: #0a84ff;
     text-decoration: none;
-    padding: 0.3rem;
+    color: rgb(7, 189, 250);
 }
-
-a:hover {
-    background-color: #0a84ff;
-    color: #e0e0e0;
+a:hover{
+    text-decoration: underline;
+}
+.contact,
+.home,
+.about {
+    display: none;
+}
+#contact:target,
+#home:target,
+#about:target {
+    display: block;
+}
+h2 {
+    padding: 0;
+    margin: 0;
+}
+.code{
+    background-color: gray;
+    padding: 0.05rem 0.2rem;
     border-radius: 5px;
-    
+    color: white;
+    font-family: serif;
+}
+p {
+    line-height: 1.5;
+}
+button {
+    background-color: black;
+    border: none;
+    height: 1rem;
+    color: white;
 }
